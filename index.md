@@ -3,8 +3,7 @@
   <h1>Kids Yoga</h1>
   <body>
     <p> Yoga for children is a form of modern yoga designed for children. It includes poses to increase strength, flexibility, and coordination. Classes are intended to be fun and may include age-appropriate games, animal sounds and creative names for poses.</p>
-    <br>
-    <br>
+    <br> <br>
     <img src="https://moralstory.in/wp-content/uploads/2021/06/people-woman-yoga-2557546-1024x682.jpg" width="500px">
     <br>
     <h3>Approaches</h3>
@@ -22,32 +21,24 @@
     </ul>
     <br>
       <h3>Register</h3>
-   
-    <form>
-  
-      <label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname">
+    <form method="POST">
+   <label for="fname">First name:</label>
+      <input type="text"name="firstname"value="enter here"/>
       <div> </div>
-  
-      <label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname">
+   <label for="lname">Last name:</label>
+  <input type="text"id="lname"name="lname"/>
        <div> </div>
- 
-      <label for="Contact Number">Last name:</label>
-  <input type="number" id="number" name="number">
+  <label for="Contact Number">Last name:</label>
+  <input type="number" id="number" name="number"/>
        <div> </div>
-  
-      <label for="gender">Gender:</label>
+   <label for="gender">Gender:</label>
       <select>name="gender">
         <option Valve = "male"> Male</option Valve>
         <option Valve = "female"> Female</option Valve>
       </select>
       <div></div>
-  
-      <label for="Email">Email:</label>
+    <label for="Email">Email:</label>
   <input type="text" id="email" name="email">
-      
-</form>
-     
-        
+      </form><br>
+    <input type="submit"name="submit"value="Submit"> </body>
         
