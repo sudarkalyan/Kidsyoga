@@ -23,7 +23,7 @@
       <h3>Register</h3>
     <form method="POST">
    <label for="fname">First name:</label>
-      <input type="text"name="firstname"value="enter here"/>
+      <input type="text" name="firstname" value="enter here"/>
       <div> </div>
    <label for="lname">Last name:</label>
   <input type="text"id="lname"name="lname"/>
@@ -32,9 +32,9 @@
   <input type="number" id="number" name="number"/>
        <div> </div>
    <label for="gender">Gender:</label>
-      <select>name="gender">
-        <option Valve = "male"> Male</option Valve>
-        <option Valve = "female"> Female</option Valve>
+      <select name="gender">
+        <option Value = "male"> Male</option>
+        <option Value = "female"> Female</option>
       </select>
       <div></div>
     <label for="Email">Email:</label>
